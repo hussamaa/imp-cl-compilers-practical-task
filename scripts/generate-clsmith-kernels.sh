@@ -37,3 +37,5 @@ do
   $($CLSMITH_EXECUTABLE $CLSMITH_FLAGS)
   mv CLProg.c $OUTPUT_FOLDER/$current_kernel_file
 done
+
+rm -rf platform.info

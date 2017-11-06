@@ -33,12 +33,12 @@ rm -rf $KERNEL_FOLDER/*.log
 for kernel in $KERNEL_PATTERN; do
   kernel_file=$(echo $kernel | sed -e "s/.c//g")
   echo "checking kernel: $kernel"
-  echo -n "with optimization: "
+  echo "* with optimizations: "
   $($CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS -f $kernel > "$kernel_file.optimized.log")
   
   # execute a non-optimized version
   if $CHECK_WITHOUT_OPTIMIZATION ; then
-    echo -n "without optimization: "
+    echo "* without optimizations: "
     $($CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS $CL_LAUNCHER_DISABLE_OPTIMIZATION -f $kernel > "$kernel_file.non-optimized.log")
   fi
   echo ""
