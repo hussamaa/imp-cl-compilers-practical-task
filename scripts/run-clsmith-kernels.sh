@@ -28,18 +28,30 @@ CL_LAUNCHER_FLAGS="-d 0 -p 0 --include_path $CLSMITH_HOME/build --include_path $
 CL_LAUNCHER_DISABLE_OPTIMIZATION_FLAG="---disable_opts"
 CHECK_WITHOUT_OPTIMIZATION=true;
 
-KERNEL_PATTERN=$(echo "$KERNEL_FOLDER/*$KERNEL_SUFFIX" | sed -e "s/\/\//\//g")
+KERNEL_LIST=$(ls $KERNEL_FOLDER/*$KERNEL_SUFFIX | sed -e "s/\/\//\//g" | sort -V)
+
+EVALUATE()
+{
+  if [[ $1 -eq 0 ]]; then
+    echo -e "\033[33;32m [OK]\e[0m"
+  else
+    echo -e "\033[33;31m [FAIL]\e[0m"
+  fi
+}
+
 rm -rf $KERNEL_FOLDER/*.log
-for kernel in $KERNEL_PATTERN; do
+for kernel in $KERNEL_LIST; do
   kernel_file=$(echo $kernel | sed -e "s/.c//g")
   echo "checking kernel: $kernel"
-  echo "* with optimizations: "
-  $($CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS -f $kernel > "$kernel_file.optimized.log")
+  echo -n "* with optimizations: "
+  bash -c "{ $CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS -f $kernel > '$kernel_file.optimized.log'; } 2>> /dev/null ";
+  EVALUATE $?
   
   # execute a non-optimized version
   if $CHECK_WITHOUT_OPTIMIZATION ; then
-    echo "* without optimizations: "
-    $($CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS $CL_LAUNCHER_DISABLE_OPTIMIZATION -f $kernel > "$kernel_file.non-optimized.log")
+    echo -n "* without optimizations: "
+    bash -c "{ $CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS $CL_LAUNCHER_DISABLE_OPTIMIZATION -f $kernel > '$kernel_file.non-optimized.log'; } 2>> /dev/null ";
+    EVALUATE $?
   fi
   echo ""
 done 
