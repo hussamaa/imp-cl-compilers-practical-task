@@ -1,6 +1,6 @@
 #!/bin/bash
 # 
-# Multiple OpenCL Kernel Generator using CLSmith
+# Multiple OpenCL Kernel Generation using CLSmith
 #
 # Author: Hussama Ismail <hussama.ismail@gmail.com>
 #
