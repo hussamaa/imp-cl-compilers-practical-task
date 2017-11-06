@@ -1,0 +1,44 @@
+#!/bin/bash
+# 
+# Configure all environment and submodules
+#
+# Author: Hussama Ismail <hussama.ismail@gmail.com>
+#
+# ------------------------------------------------------
+#
+# Script that checks if the executables were generated
+# otherwise it will build them.
+# 
+# Usage Example:
+# $ source scripts/configure
+#
+# ------------------------------------------------------
+#
+# History:
+#
+#  v0.1 2017-11-06, Hussama Ismail: 
+#     - Initial Version
+#
+
+# build clsmith
+if [ ! -f clsmith/build/CLSmith ]; then
+  echo "bulding clsmith..."
+  cd clsmith
+  mkdir build && cd build
+  cmake ..
+  cmake --build . --config Release
+fi
+
+# build csmith
+if [ ! -f csmith/src/csmith ]; then
+  echo "building csmith"
+  cd csmith
+  ./configure
+  make
+  cd ..
+fi
+
+# preparing PATH
+export CSMITH_HOME=$(pwd)/csmith
+export CLSMITH_HOME=$(pwd)/clsmith
+export PATH=$PATH:$CSMITH_HOME/src:$CLSMITH_HOME/build/
