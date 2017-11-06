@@ -42,15 +42,17 @@ EVALUATE()
 rm -rf $KERNEL_FOLDER/*.log
 for kernel in $KERNEL_LIST; do
   kernel_file=$(echo $kernel | sed -e "s/.c//g")
+  kernel_optimized_log_file="$kernel_file.optimized.log"
   echo "checking kernel: $kernel"
   echo -n "* with optimizations: "
-  bash -c "{ $CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS -f $kernel > '$kernel_file.optimized.log'; } 2>> /dev/null ";
+  bash -c "{ $CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS -f $kernel > $kernel_optimized_log_file; } 2>> $kernel_optimized_log_file ";
   EVALUATE $?
   
   # execute a non-optimized version
   if $CHECK_WITHOUT_OPTIMIZATION ; then
     echo -n "* without optimizations: "
-    bash -c "{ $CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS $CL_LAUNCHER_DISABLE_OPTIMIZATION -f $kernel > '$kernel_file.non-optimized.log'; } 2>> /dev/null ";
+    kernel_non_optimized_log_file="$kernel_file.non-optimized.log"
+    bash -c "{ $CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS $CL_LAUNCHER_DISABLE_OPTIMIZATION -f $kernel > $kernel_non_optimized_log_file; } 2>> $kernel_non_optimized_log_file ";
     EVALUATE $?
   fi
   echo ""
