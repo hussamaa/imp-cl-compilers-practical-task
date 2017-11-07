@@ -25,7 +25,7 @@ NUMBER_OF_KERNELS="$1"
 OUTPUT_FOLDER="$2"
 
 CLSMITH_EXECUTABLE="CLSmith"
-CLSMITH_FLAGS=""
+CLSMITH_FLAGS="--fake_divergence --group_divergence --vectors --inter_thread_comm --atomics --atomic_reductions"
 
 KERNEL_PREFIX="kernel"
 KERNEL_SUFFIX=".c"
