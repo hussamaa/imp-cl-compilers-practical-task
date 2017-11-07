@@ -28,7 +28,7 @@ CL_LAUNCHER_FLAGS="-d 0 -p 0 --include_path $CLSMITH_HOME/build --include_path $
 CL_LAUNCHER_DISABLE_OPTIMIZATION_FLAG="---disable_opts"
 
 CHECK_WITHOUT_OPTIMIZATION=true;
-TIMEOUT=3600
+TIMEOUT=60
 KERNEL_LIST=$(ls $KERNEL_FOLDER/*$KERNEL_SUFFIX | sed -e "s/\/\//\//g" | sort -V)
 
 EVALUATE()
