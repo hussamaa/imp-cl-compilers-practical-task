@@ -9,14 +9,18 @@ Hussama Ismail
 
 ---
 
-### Bugs in OpenCL compilers? <br> 
+### Bugs in OpenCL compilers? 
+
+<br> 
 
 * **Yes, they do exist**. This work was already done before by Alastair Donaldson and his Ph.D. students;
 * Execute the **same approach** trying to find bugs in **mainstream compilers**.
 
 ---
 
-### Tools <br> 
+### Tools 
+
+<br> 
 
 * **CSmith**: random generator of C programs;
 * **CLSmith**: a random generator of OpenCL C programs;
@@ -24,7 +28,9 @@ Hussama Ismail
 
 +++
 
-### Script <br> 
+### Script 
+
+<br> 
 
 1. **generate-clsmith-kernels.sh**: a script for multiple OpenCL kernel generation using CLSmith;
 2. **run-clsmith-kernels.sh**: a script for running all CLSMith kernels inside a folder;
@@ -32,7 +38,9 @@ Hussama Ismail
 
 ---
 
-### Experimental Evaluation <br> 
+### Experimental Evaluation 
+
+<br> 
 
 * 1000 random kernels were generated;
 * compiled with and without optimization (2000 test cases);
