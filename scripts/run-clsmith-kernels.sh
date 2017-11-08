@@ -55,7 +55,7 @@ for kernel in $KERNEL_LIST; do
   if $CHECK_WITHOUT_OPTIMIZATION ; then
     echo -n "* without optimizations: "
     kernel_non_optimized_log_file="$kernel_file.non-optimized.log"
-    timeout $TIMEOUT bash -c "{ $CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS $CL_LAUNCHER_DISABLE_OPTIMIZATION -f $kernel > $kernel_non_optimized_log_file; } 2>> $kernel_non_optimized_log_file ";
+    timeout $TIMEOUT bash -c "{ $CL_LAUNCHER_EXECUTABLE $CL_LAUNCHER_FLAGS $CL_LAUNCHER_DISABLE_OPTIMIZATION_FLAG -f $kernel > $kernel_non_optimized_log_file; } 2>> $kernel_non_optimized_log_file ";
     EVALUATE $?
   fi
   echo ""
