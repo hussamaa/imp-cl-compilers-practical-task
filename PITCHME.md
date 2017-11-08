@@ -2,8 +2,9 @@
 
 ## Finding bugs in OpenCL compilers
 
-###### Hussama Ismail 
-###### <hussama.ismail@gmail.com>
+
+Hussama Ismail 
+<hussama.ismail@gmail.com>
 
 ---
 
