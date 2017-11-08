@@ -27,9 +27,9 @@ Hussama Ismail
 
 ### Scripts
 
-* generate-clsmith-kernels.sh: a script for multiple OpenCL kernel generation using CLSmith;
-* run-clsmith-kernels.sh: a script for running all CLSMith kernels inside a folder;
-* evaluate-results.sh: a script for evaluating all log files generated.
+* **generate-clsmith-kernels.sh**: a script for multiple OpenCL kernel generation using CLSmith;
+* **run-clsmith-kernels.sh**: a script for running all CLSMith kernels inside a folder;
+* **evaluate-results.sh**: a script for evaluating all log files generated.
 
 ---
 
