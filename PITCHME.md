@@ -15,7 +15,9 @@ Hussama Ismail
 
 * Execute the same approach trying to find bugs in mainstream compilers.
 
-#### Tools
+----
+
+### Tools
 
 * CSmith - random generator of C programs;
 * CLSmith - a random generator of OpenCL C programs;
