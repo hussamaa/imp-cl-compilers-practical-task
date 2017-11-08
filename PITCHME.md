@@ -1,6 +1,10 @@
 ---
 
-Hello, World!
+Finding bugs in OpenCL compilers
+
++++
+
+Hussama Ismail <hussama.ismail@gmail.com>
 
 ---
 
