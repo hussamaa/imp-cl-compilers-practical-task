@@ -15,7 +15,7 @@ Hussama Ismail
 
 * Execute the same approach trying to find bugs in mainstream compilers.
 
-----
+---
 
 ### Tools
 
