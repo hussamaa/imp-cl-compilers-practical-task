@@ -37,6 +37,14 @@ Hussama Ismail
 
 ---
 
-
+### Experimental Evaluation
+<br> 
+* 1000 random kernels were generated;
+<br> 
+* compiled with and without optmization (2000 test cases);
+<br> 
+* timeout of 60 seconds;
+<br> 
+* i7-3517U CPU @ 1.90GHz, 8GB of RAM, Ubuntu 17.10 x86-64.
 
 The End :)
