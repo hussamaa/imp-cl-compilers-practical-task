@@ -151,4 +151,4 @@ Thank you for your attention!
 
 <br>
 
-All the logs and scripts are available on GitHub.
+All logs and scripts are available on GitHub.
