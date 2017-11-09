@@ -83,7 +83,7 @@ Hussama Ismail
 <br> 
 
 * **11**% of the benchmarks were timeout;
-* The non-optimized set of benchmarks shown **4%** more executions without problems.
+* The non-optimized set of benchmarks shown **4%** more executions without problems;
 * **6%** of the optimized kernels that executed without problems produced different results if compared to their non-optimized version;
 
 +++
@@ -92,9 +92,12 @@ Hussama Ismail
 
 <br> 
 
-* In general, the optimized benchmarks shown **7**% more failures;
-  * The optimized benchmarks shown **86**% more failures related to **compiler crash**;
-  * The non-optimized benchmarks shown **20%** more failures related to **out of resources**.
+* the optimized benchmarks shown **7**% more failures;
+  * In particular, it shown **86**% more failures related to **compiler crash**;
+
+<br>
+
+* The non-optimized benchmarks shown **20%** more failures related to **out of resources**.
 
 ---
 
