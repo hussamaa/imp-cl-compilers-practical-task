@@ -123,9 +123,8 @@ Hussama Ismail
 
 ### Mission II - The bug is...
 
-##### Stack dump:
-#####  0.	Running pass 'CallGraph Pass Manager' on module 'main'.
-#####  1.	Running pass 'Remove redundant instructions' on function '@func_15'
+* Stack dump:
+  1.	Running pass 'Remove redundant instructions' on function '@func_15'
 
 ```
 l_344 = (
