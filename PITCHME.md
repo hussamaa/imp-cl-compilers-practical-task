@@ -117,6 +117,8 @@ Hussama Ismail
 
 ### Mission II - The Bug is...
 
+<br>
+
 ```
 l_344 = (
   safe_lshift_func_uint16_t_u_u(
