@@ -101,12 +101,12 @@ Hussama Ismail
 
 ---
 
-### Mission II - Identifying the Bug
+### Mission II - Identifying a bug
 
 <br>
 
 * Check if I would be able to expose the same bug in a small program;
-* I choose the benchmark (kernel-XX.c)
+* I choose the benchmark (kernel-279.c)
   * no compilation problem for its non-optimized version;
 
 <br>
@@ -115,7 +115,7 @@ Hussama Ismail
 
 +++
 
-### Mission II - The Bug is...
+### Mission II - The bug is...
 
 <br>
 
@@ -135,7 +135,7 @@ l_344 = (
 
 +++
 
-### Mission II - Identifying the Bug
+### Mission II - Identifying a bug
 
 <br>
 
@@ -143,7 +143,7 @@ l_344 = (
 
 <br>
 
-* more time of "debbuging" is necessary.
+* more time for "debbuging" is necessary.
 
 ---
 
