@@ -8,7 +8,7 @@ checking kernel: ./kernel-1.c
 
 checking kernel: ./kernel-2.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-3.c
 * with optimizations: [33;31m [FAIL][0m
@@ -88,7 +88,7 @@ checking kernel: ./kernel-21.c
 
 checking kernel: ./kernel-22.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-23.c
 * with optimizations: [33;32m [OK][0m
@@ -156,11 +156,11 @@ checking kernel: ./kernel-38.c
 
 checking kernel: ./kernel-39.c
 * with optimizations: [33;32m [OK][0m
-* without optimizations: [33;32m [OK][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-40.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-41.c
 * with optimizations: [33;32m [OK][0m
@@ -168,7 +168,7 @@ checking kernel: ./kernel-41.c
 
 checking kernel: ./kernel-42.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-43.c
 * with optimizations: [33;32m [OK][0m
@@ -188,7 +188,7 @@ checking kernel: ./kernel-46.c
 
 checking kernel: ./kernel-47.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-48.c
 * with optimizations: [33;31m [FAIL][0m
@@ -196,10 +196,10 @@ checking kernel: ./kernel-48.c
 
 checking kernel: ./kernel-49.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-50.c
-* with optimizations: [33;32m [OK][0m
+* with optimizations: [33;33m [TIMEOUT][0m
 * without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-51.c
@@ -236,7 +236,7 @@ checking kernel: ./kernel-58.c
 
 checking kernel: ./kernel-59.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-60.c
 * with optimizations: [33;33m [TIMEOUT][0m
@@ -296,7 +296,7 @@ checking kernel: ./kernel-73.c
 
 checking kernel: ./kernel-74.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-75.c
 * with optimizations: [33;32m [OK][0m
@@ -316,7 +316,7 @@ checking kernel: ./kernel-78.c
 
 checking kernel: ./kernel-79.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-80.c
 * with optimizations: [33;32m [OK][0m
@@ -368,7 +368,7 @@ checking kernel: ./kernel-91.c
 
 checking kernel: ./kernel-92.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-93.c
 * with optimizations: [33;32m [OK][0m
@@ -416,7 +416,7 @@ checking kernel: ./kernel-103.c
 
 checking kernel: ./kernel-104.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-105.c
 * with optimizations: [33;31m [FAIL][0m
@@ -432,7 +432,7 @@ checking kernel: ./kernel-107.c
 
 checking kernel: ./kernel-108.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-109.c
 * with optimizations: [33;32m [OK][0m
@@ -516,7 +516,7 @@ checking kernel: ./kernel-128.c
 
 checking kernel: ./kernel-129.c
 * with optimizations: [33;32m [OK][0m
-* without optimizations: [33;32m [OK][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-130.c
 * with optimizations: [33;32m [OK][0m
@@ -684,10 +684,10 @@ checking kernel: ./kernel-170.c
 
 checking kernel: ./kernel-171.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-172.c
-* with optimizations: [33;32m [OK][0m
+* with optimizations: [33;33m [TIMEOUT][0m
 * without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-173.c
@@ -708,11 +708,11 @@ checking kernel: ./kernel-176.c
 
 checking kernel: ./kernel-177.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-178.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-179.c
 * with optimizations: [33;32m [OK][0m
@@ -720,7 +720,7 @@ checking kernel: ./kernel-179.c
 
 checking kernel: ./kernel-180.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-181.c
 * with optimizations: [33;32m [OK][0m
@@ -736,7 +736,7 @@ checking kernel: ./kernel-183.c
 
 checking kernel: ./kernel-184.c
 * with optimizations: [33;32m [OK][0m
-* without optimizations: [33;32m [OK][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-185.c
 * with optimizations: [33;31m [FAIL][0m
@@ -936,7 +936,7 @@ checking kernel: ./kernel-233.c
 
 checking kernel: ./kernel-234.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-235.c
 * with optimizations: [33;33m [TIMEOUT][0m
@@ -1000,7 +1000,7 @@ checking kernel: ./kernel-249.c
 
 checking kernel: ./kernel-250.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-251.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1128,7 +1128,7 @@ checking kernel: ./kernel-281.c
 
 checking kernel: ./kernel-282.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-283.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1156,7 +1156,7 @@ checking kernel: ./kernel-288.c
 
 checking kernel: ./kernel-289.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-290.c
 * with optimizations: [33;32m [OK][0m
@@ -1172,7 +1172,7 @@ checking kernel: ./kernel-292.c
 
 checking kernel: ./kernel-293.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-294.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1264,7 +1264,7 @@ checking kernel: ./kernel-315.c
 
 checking kernel: ./kernel-316.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-317.c
 * with optimizations: [33;32m [OK][0m
@@ -1284,7 +1284,7 @@ checking kernel: ./kernel-320.c
 
 checking kernel: ./kernel-321.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-322.c
 * with optimizations: [33;32m [OK][0m
@@ -1300,7 +1300,7 @@ checking kernel: ./kernel-324.c
 
 checking kernel: ./kernel-325.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-326.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1380,7 +1380,7 @@ checking kernel: ./kernel-344.c
 
 checking kernel: ./kernel-345.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-346.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1420,11 +1420,11 @@ checking kernel: ./kernel-354.c
 
 checking kernel: ./kernel-355.c
 * with optimizations: [33;32m [OK][0m
-* without optimizations: [33;32m [OK][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-356.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-357.c
 * with optimizations: [33;32m [OK][0m
@@ -1464,7 +1464,7 @@ checking kernel: ./kernel-365.c
 
 checking kernel: ./kernel-366.c
 * with optimizations: [33;32m [OK][0m
-* without optimizations: [33;32m [OK][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-367.c
 * with optimizations: [33;33m [TIMEOUT][0m
@@ -1472,7 +1472,7 @@ checking kernel: ./kernel-367.c
 
 checking kernel: ./kernel-368.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-369.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1504,7 +1504,7 @@ checking kernel: ./kernel-375.c
 
 checking kernel: ./kernel-376.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-377.c
 * with optimizations: [33;32m [OK][0m
@@ -1512,11 +1512,11 @@ checking kernel: ./kernel-377.c
 
 checking kernel: ./kernel-378.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-379.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-380.c
 * with optimizations: [33;32m [OK][0m
@@ -1584,7 +1584,7 @@ checking kernel: ./kernel-395.c
 
 checking kernel: ./kernel-396.c
 * with optimizations: [33;32m [OK][0m
-* without optimizations: [33;32m [OK][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-397.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1644,7 +1644,7 @@ checking kernel: ./kernel-410.c
 
 checking kernel: ./kernel-411.c
 * with optimizations: [33;32m [OK][0m
-* without optimizations: [33;32m [OK][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-412.c
 * with optimizations: [33;32m [OK][0m
@@ -1668,7 +1668,7 @@ checking kernel: ./kernel-416.c
 
 checking kernel: ./kernel-417.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-418.c
 * with optimizations: [33;33m [TIMEOUT][0m
@@ -1676,7 +1676,7 @@ checking kernel: ./kernel-418.c
 
 checking kernel: ./kernel-419.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-420.c
 * with optimizations: [33;32m [OK][0m
@@ -1700,7 +1700,7 @@ checking kernel: ./kernel-424.c
 
 checking kernel: ./kernel-425.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-426.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1760,11 +1760,11 @@ checking kernel: ./kernel-439.c
 
 checking kernel: ./kernel-440.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-441.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-442.c
 * with optimizations: [33;32m [OK][0m
@@ -1844,7 +1844,7 @@ checking kernel: ./kernel-460.c
 
 checking kernel: ./kernel-461.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;33m [TIMEOUT][0m
 
 checking kernel: ./kernel-462.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1912,7 +1912,7 @@ checking kernel: ./kernel-477.c
 
 checking kernel: ./kernel-478.c
 * with optimizations: [33;33m [TIMEOUT][0m
-* without optimizations: [33;33m [TIMEOUT][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-479.c
 * with optimizations: [33;31m [FAIL][0m
@@ -1956,15 +1956,15 @@ checking kernel: ./kernel-488.c
 
 checking kernel: ./kernel-489.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-490.c
 * with optimizations: [33;32m [OK][0m
-* without optimizations: [33;32m [OK][0m
+* without optimizations: [33;31m [FAIL][0m
 
 checking kernel: ./kernel-491.c
 * with optimizations: [33;31m [FAIL][0m
-* without optimizations: [33;31m [FAIL][0m
+* without optimizations: [33;32m [OK][0m
 
 checking kernel: ./kernel-492.c
 * with optimizations: [33;33m [TIMEOUT][0m

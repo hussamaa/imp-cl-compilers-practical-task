@@ -1,2 +1,4 @@
-Compilation terminated successfully...
-Error enqueueing kernel: -5
+Stack dump:
+0.	Running pass 'Function Pass Manager' on module 'main'.
+1.	Running pass 'Machine Loop Invariant Code Motion' on function '@func_104'
+bash: line 1:  7943 Segmentation fault      (core dumped) cl_launcher -d 0 -p 0 --include_path /home/os/opt/repo/imp-mission/clsmith/build --include_path /home/os/opt/repo/imp-mission/clsmith/runtime/ ---disable_opts -f ./kernel-117.c > ./kernel-117.non-optimized.log

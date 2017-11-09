@@ -1,3 +1,1 @@
-Stack dump:
-0.	Running pass 'mitigate boolean vectors legalization issue' on module 'main'.
-bash: line 1: 31914 Segmentation fault      (core dumped) cl_launcher -d 0 -p 0 --include_path /home/hussama/repo/imp-mission/clsmith/build --include_path /home/hussama/repo/imp-mission/clsmith/runtime/ -f ./kernel-316.c > ./kernel-316.non-optimized.log
+Compilation terminated successfully...

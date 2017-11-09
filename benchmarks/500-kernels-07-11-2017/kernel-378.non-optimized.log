@@ -1,5 +1,1 @@
-Stack dump:
-0.	Running pass 'Intel OpenCL Vectorizer' on module 'main'.
-1.	Running pass 'Intel OpenCL VectorizerCore' on function '@__Vectorized_.entry'
-2.	Running pass 'Predicator' on function '@__Vectorized_.entry'
-bash: line 1: 11871 Segmentation fault      (core dumped) cl_launcher -d 0 -p 0 --include_path /home/os/opt/repo/imp-mission/clsmith/build --include_path /home/os/opt/repo/imp-mission/clsmith/runtime/ -f ./kernel-378.c > ./kernel-378.non-optimized.log
+Compilation terminated successfully...

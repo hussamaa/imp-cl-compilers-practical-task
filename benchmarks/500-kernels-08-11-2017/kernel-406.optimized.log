@@ -1,2 +1,2 @@
 Compilation terminated successfully...
-bash: line 1:  5068 Segmentation fault      (core dumped) cl_launcher -d 0 -p 0 --include_path /home/hussama/repo/imp-mission/clsmith/build --include_path /home/hussama/repo/imp-mission/clsmith/runtime/ -f ./kernel-406.c > ./kernel-406.optimized.log
+bash: line 1: 23151 Segmentation fault      (core dumped) cl_launcher -d 0 -p 0 --include_path /home/os/opt/repo/imp-mission/clsmith/build --include_path /home/os/opt/repo/imp-mission/clsmith/runtime/ -f ./kernel-406.c > ./kernel-406.optimized.log

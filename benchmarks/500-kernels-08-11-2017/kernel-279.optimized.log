@@ -1,4 +1,4 @@
 Stack dump:
 0.	Running pass 'CallGraph Pass Manager' on module 'main'.
 1.	Running pass 'Remove redundant instructions' on function '@func_15'
-bash: line 1: 30171 Segmentation fault      (core dumped) cl_launcher -d 0 -p 0 --include_path /home/hussama/repo/imp-mission/clsmith/build --include_path /home/hussama/repo/imp-mission/clsmith/runtime/ -f ./kernel-279.c > ./kernel-279.optimized.log
+bash: line 1: 16582 Segmentation fault      (core dumped) cl_launcher -d 0 -p 0 --include_path /home/os/opt/repo/imp-mission/clsmith/build --include_path /home/os/opt/repo/imp-mission/clsmith/runtime/ -f ./kernel-279.c > ./kernel-279.optimized.log
