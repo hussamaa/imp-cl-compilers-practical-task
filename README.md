@@ -38,7 +38,7 @@ We divided the results in two categories; with optimization and without optimiza
 
 * In total, **11**% of the benchmarks were timeout;
 * The non optimized set of benchmarks shown **4%** more executions without problems.
-* **6%** of the optimized kernels executed without problems produced different results if compared to its non optimized version;
+* **6%** of the optimized kernels that executed without problems produced different results if compared to their non optimized version;
 * In general, the optimized benchmarks showed **7**% more failures;
 * * The optimized benchmarks showed **86**% more failures related to **compiler crash**;
 * * The non-optimized benchmarks show **20%** more failures related to **out of resources**.
