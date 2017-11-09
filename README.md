@@ -34,7 +34,7 @@ The results were into two categories; (i) with optimization and (iI) without opt
   * out of resource (OpenCL error code -5): **124** *(83%)*;
   * other errors (OpenCL error codes -11 and -46): **19** *(13%)*.
 
-### Important to note:
+### Note:
 
 * **11**% of the benchmarks were timeout;
 * The non-optimized set of benchmarks shown **4%** more executions without problems;
