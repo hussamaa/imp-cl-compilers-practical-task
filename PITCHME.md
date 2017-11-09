@@ -59,8 +59,8 @@ Hussama Ismail
   * (it doesn't mean that the result is correct);
 * **161** failures (**32**%);
   * compiler crash: **44** *(27%)*;
-  * out of resource (OpenCL error code -5): **98** *(61%)*;
-  * other errors (OpenCL error codes -11 and -46): **19** *(12%)*.
+  * out of resource (OpenCL): **98** *(61%)*;
+  * other errors (OpenCL): **19** *(12%)*.
   
 +++
 
@@ -73,8 +73,8 @@ Hussama Ismail
 * **296** executions without problems (**59**%);
 * **149** failures (**30**%);
   * compiler crash: **6** *(4%)*;
-  * out of resource (OpenCL error code -5): **124** *(83%)*;
-  * other errors (OpenCL error codes -11 and -46): **19** *(13%)*.
+  * out of resource (OpenCL): **124** *(83%)*;
+  * other errors (OpenCL): **19** *(13%)*.
   
 +++
 
