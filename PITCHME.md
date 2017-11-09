@@ -54,12 +54,13 @@ Hussama Ismail
 <br> 
 
 * total of kernels: **500**;
-* **56** timeouts;
-* **283** executions without problems (it doesn't mean that the result is correct);
-* **161** failures;
-  * compiler crash: **44**;
-  * out of resource (OpenCL error code -5): **98**;
-  * other errors (OpenCL error codes -11 and -46): **19**.
+* **56** timeouts (**11**%);
+* **283** executions without problems (**57**%) 
+  * (it doesn't mean that the result is correct);
+* **161** failures (**32**%);
+  * compiler crash: **44** *(27%)*;
+  * out of resource (OpenCL error code -5): **98** *(61%)*;
+  * other errors (OpenCL error codes -11 and -46): **19** *(12%)*.
   
 +++
 
@@ -68,12 +69,12 @@ Hussama Ismail
 <br> 
 
 * total of kernels: **500**;
-* **55** timeouts;
-* **296** executions without problems;
-* **149** failures;
-  * compiler crash: **6**;
-  * out of resource (OpenCL error code -5): **124**;
-  * other errors (OpenCL error codes -11 and -46): **19**.
+* **55** timeouts (**11**%);
+* **296** executions without problems (**59**%);
+* **149** failures (**30**%);
+  * compiler crash: **6** *(4%)*;
+  * out of resource (OpenCL error code -5): **124** *(83%)*;
+  * other errors (OpenCL error codes -11 and -46): **19** *(13%)*.
   
 +++
 
