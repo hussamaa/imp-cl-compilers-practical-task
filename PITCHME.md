@@ -22,9 +22,8 @@ Hussama Ismail
 
 <br> 
 
-* **CSmith**: random generator of C programs;
-* **CLSmith**: a random generator of OpenCL C programs;
-* **clreduce**: automate reducer for OpenCL.
+* **CLSmith**: a random generator of OpenCL C programs (based on CSmith); 
+* **clreduce**: automate reducer for OpenCL (based on creduce).
 
 +++
 
