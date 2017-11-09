@@ -1,5 +1,0 @@
-Stack dump:
-0.	Running pass 'Intel OpenCL Vectorizer' on module 'main'.
-1.	Running pass 'Intel OpenCL VectorizerCore' on function '@__Vectorized_.entry'
-2.	Running pass 'Combine redundant instructions' on function '@__Vectorized_.entry'
-bash: line 1: 17015 Segmentation fault      (core dumped) cl_launcher -d 0 -p 0 --include_path /home/hussama/repo/imp-mission/clsmith/build --include_path /home/hussama/repo/imp-mission/clsmith/runtime/ -f ./kernel-495.c > ./kernel-495.optimized.log
