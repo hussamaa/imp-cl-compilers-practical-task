@@ -34,14 +34,14 @@ We divided the results in two categories; with optimization and without optimiza
   * out of resource (opencl -5): **124**;
   * other errors (opencl -11 and -46): **19**.
 
-#### Considerations:
+#### Important to note:
 
 * In total, **11**% of the benchmarks were timeout;
 * The non optimized set of benchmarks shown **4%** more executions without problems.
 * **6%** of the optimized kernels that executed without problems produced different results if compared to their non optimized version;
-* In general, the optimized benchmarks showed **7**% more failures;
-* * The optimized benchmarks showed **86**% more failures related to **compiler crash**;
-* * The non-optimized benchmarks show **20%** more failures related to **out of resources**.
+* In general, the optimized benchmarks shown **7**% more failures;
+* * The optimized benchmarks shown **86**% more failures related to **compiler crash**;
+* * The non-optimized benchmarks shown **20%** more failures related to **out of resources**.
 
 
 
