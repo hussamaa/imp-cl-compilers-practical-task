@@ -29,15 +29,6 @@ if [ ! -f clsmith/build/CLSmith ]; then
   cmake --build . --config Release
 fi
 
-# build csmith
-if [ ! -f csmith/src/csmith ]; then
-  echo "building csmith"
-  cd csmith
-  ./configure
-  make
-  cd ..
-fi
-
 # preparing PATH
 export CSMITH_HOME=$(pwd)/csmith
 export CLSMITH_HOME=$(pwd)/clsmith
