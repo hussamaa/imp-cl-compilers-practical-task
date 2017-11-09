@@ -48,8 +48,7 @@ Hussama Ismail
 <br> 
 
 * **500** random kernels were generated;
-* compiled (i) **with** and (ii) **without** optimization 
-  * (1000 test cases);
+* compiled (i) **with** and (ii) **without** optimization (1000 test cases);
 * timeout of 60 seconds;
 * CPU i7-3517U @ 1.90GHz, 8GB, Ubuntu 17.10 x86-64;
 * Intel OpenCL SDK v1.2.
