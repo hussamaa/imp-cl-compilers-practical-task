@@ -12,7 +12,7 @@ This project is part of a practical task about finding bugs in OpenCL compilers,
 
 For this practical task, 500 kernels were generated using CLSmith (with flags: ...) and then compiled and executed with and without optimizations (a total of 1000 different test cases). These experiments were conducted on an otherwise idle Intel Core i7-3517U CPU @ 1.90GHz processor, with 8GB of RAM, running Ubuntu 17.10 x86-64. In addition, an Intel SDK v1.2 was used in order to run OpenCL kernels on CPU. Moreover, the benchmarks that took more than 60 seconds were considered **timeout**.
 
-We divided the results into two categories; (i) with optimization and (iI) without optimizations:
+The results were into two categories; (i) with optimization and (iI) without optimizations:
 
 ### i) with optimizations:
 
