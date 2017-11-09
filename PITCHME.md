@@ -13,7 +13,10 @@ Hussama Ismail
 
 <br> 
 
-* **Yes, they do exist**. This work was already done before by Alastair Donaldson and his Ph.D. students;
+* **Yes, they do exist**. It has been shown by Alastair Donaldson and his Ph.D. students;
+
+<br> 
+
 * Execute the **same approach** trying to find bugs in **mainstream compilers**.
 
 ---
@@ -23,6 +26,9 @@ Hussama Ismail
 <br> 
 
 * **CLSmith**: a random generator of OpenCL C programs (based on CSmith); 
+
+<br> 
+
 * **clreduce**: automate reducer for OpenCL (based on creduce).
 
 +++
