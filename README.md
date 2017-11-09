@@ -20,9 +20,9 @@ The results were into two categories; (i) with optimization and (iI) without opt
 * **56** timeouts (**11**%);
 * **283** executions without problems (**57**%) (it doesn't mean that the result is correct);
 * **161** failures (**32**%);
-  * compiler crash: **44** (27%);
-  * out of resource (OpenCL error code -5): **98** (61%);
-  * other errors (OpenCL error codes -11 and -46): **19** (12%).
+  * compiler crash: **44** *(27%)*;
+  * out of resource (OpenCL error code -5): **98** *(61%)*;
+  * other errors (OpenCL error codes -11 and -46): **19** *(12%)*.
 
 ### ii) without optimizations:
 
@@ -30,9 +30,9 @@ The results were into two categories; (i) with optimization and (iI) without opt
 * **55** timeouts (**11**%);
 * **296** executions without problems (**59**%);
 * **149** failures (**30**%);
-  * compiler crash: **6** (4%);
-  * out of resource (OpenCL error code -5): **124** (83%);
-  * other errors (OpenCL error codes -11 and -46): **19** (13%).
+  * compiler crash: **6** *(4%)*;
+  * out of resource (OpenCL error code -5): **124** *(83%)*;
+  * other errors (OpenCL error codes -11 and -46): **19** *(13%)*.
 
 ### Important to note:
 
