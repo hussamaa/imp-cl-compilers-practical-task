@@ -85,7 +85,7 @@ Hussama Ismail
   
 +++
 
-### Important to note:
+### Note:
 
 <br> 
 
@@ -95,7 +95,7 @@ Hussama Ismail
 
 +++
 
-### Important to note (II):
+### Note (II):
 
 <br> 
 
