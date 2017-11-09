@@ -1,9 +1,6 @@
 [submodule "clsmith"]
 	path = clsmith
 	url = https://github.com/hussamaa/CLSmith.git
-[submodule "csmith"]
-	path = csmith
-	url = https://github.com/csmith-project/csmith.git
 [submodule "clreduce"]
 	path = clreduce
 	url = https://github.com/hussamaa/clreduce.git
