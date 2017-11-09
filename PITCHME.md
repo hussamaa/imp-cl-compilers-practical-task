@@ -93,7 +93,7 @@ Hussama Ismail
 <br> 
 
 * the optimized benchmarks shown **7**% more failures;
-  * In particular, it shown **86**% more failures related to **compiler crash**;
+  * an increase of **86**% in the number of failures related to **compiler crash**;
 
 <br>
 
