@@ -16,23 +16,23 @@ We divided the results in two categories; with optimization and without optimiza
 
 #### 1) with optimizations:
 
-* total of kernels: **500**
-* **56** timeouts
-* **283** executions without problems (it doesn't mean that the result is correct)
-* **161** failures
-  * compiler crash: **44**
-  * out of resource (opencl -5): **98**
-  * other errors (opencl -11 and -46): **19**
+* total of kernels: **500**;
+* **56** timeouts;
+* **283** executions without problems (it doesn't mean that the result is correct);
+* **161** failures;
+  * compiler crash: **44**;
+  * out of resource (opencl -5): **98**;
+  * other errors (opencl -11 and -46): **19**.
 
 #### 2) without optimizations:
 
-* total of kernels: **500**
-* **55** timeouts
-* **296** executions without problems
-* **149** failures
-  * compiler crash: **6**
-  * out of resource (opencl -5): **124**
-  * other errors (opencl -11 and -46): **19**
+* total of kernels: **500**;
+* **55** timeouts;
+* **296** executions without problems;
+* **149** failures;
+  * compiler crash: **6**;
+  * out of resource (opencl -5): **124**;
+  * other errors (opencl -11 and -46): **19**.
 
 #### Considerations:
 
