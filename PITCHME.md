@@ -41,11 +41,52 @@ Hussama Ismail
 
 <br> 
 
-* 1000 random kernels were generated;
-* compiled with and without optimization (2000 test cases);
+* **500** random kernels were generated;
+* compiled (i) **with** and (ii) **without** optimization (1000 test cases);
 * timeout of 60 seconds;
 * CPU i7-3517U @ 1.90GHz, 8GB, Ubuntu 17.10 x86-64;
 * Intel OpenCL SDK v1.2.
+
++++
+
+### i) with optimizations:
+
+<br> 
+
+* total of kernels: **500**;
+* **56** timeouts;
+* **283** executions without problems (it doesn't mean that the result is correct);
+* **161** failures;
+  * compiler crash: **44**;
+  * out of resource (OpenCL error code -5): **98**;
+  * other errors (OpenCL error codes -11 and -46): **19**.
+  
++++
+
+### ii) without optimizations:
+
+<br> 
+
+* total of kernels: **500**;
+* **55** timeouts;
+* **296** executions without problems;
+* **149** failures;
+  * compiler crash: **6**;
+  * out of resource (OpenCL error code -5): **124**;
+  * other errors (OpenCL error codes -11 and -46): **19**.
+  
++++
+
+### Important to note:
+
+<br> 
+
+* In total, **11**% of the benchmarks were timeout;
+* The non-optimized set of benchmarks shown **4%** more executions without problems.
+* **6%** of the optimized kernels that executed without problems produced different results if compared to their non-optimized version;
+* In general, the optimized benchmarks shown **7**% more failures;
+* * The optimized benchmarks shown **86**% more failures related to **compiler crash**;
+* * The non-optimized benchmarks shown **20%** more failures related to **out of resources**.
 
 ---
 
