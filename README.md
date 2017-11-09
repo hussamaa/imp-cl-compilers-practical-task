@@ -12,33 +12,33 @@ This project is part of a practical task about finding bugs in OpenCL compilers,
 
 For this practical task, 500 kernels were generated using CLSmith (with flags: ...) and then compiled and executed with and without optimizations (a total of 1000 different test cases). These experiments were conducted on an otherwise idle Intel Core i7-3517U CPU @ 1.90GHz processor, with 8GB of RAM, running Ubuntu 17.10 x86-64. In addition, an Intel SDK v1.2 was used in order to run OpenCL kernels on CPU. Moreover, the benchmarks that took more than 60 seconds were considered **timeout**.
 
-We divided the results in two categories; with optimization and without optimizations:
+We divided the results into two categories; (i) with optimization and (iI) without optimizations:
 
-### 1) with optimizations:
+### i) with optimizations:
 
 * total of kernels: **500**;
 * **56** timeouts;
 * **283** executions without problems (it doesn't mean that the result is correct);
 * **161** failures;
   * compiler crash: **44**;
-  * out of resource (opencl error code -5): **98**;
-  * other errors (opencl error codes -11 and -46): **19**.
+  * out of resource (OpenCL error code -5): **98**;
+  * other errors (OpenCL error codes -11 and -46): **19**.
 
-### 2) without optimizations:
+### ii) without optimizations:
 
 * total of kernels: **500**;
 * **55** timeouts;
 * **296** executions without problems;
 * **149** failures;
   * compiler crash: **6**;
-  * out of resource (opencl error code -5): **124**;
-  * other errors (opencl error codes -11 and -46): **19**.
+  * out of resource (OpenCL error code -5): **124**;
+  * other errors (OpenCL error codes -11 and -46): **19**.
 
 ### Important to note:
 
 * In total, **11**% of the benchmarks were timeout;
-* The non optimized set of benchmarks shown **4%** more executions without problems.
-* **6%** of the optimized kernels that executed without problems produced different results if compared to their non optimized version;
+* The non-optimized set of benchmarks shown **4%** more executions without problems.
+* **6%** of the optimized kernels that executed without problems produced different results if compared to their non-optimized version;
 * In general, the optimized benchmarks shown **7**% more failures;
 * * The optimized benchmarks shown **86**% more failures related to **compiler crash**;
 * * The non-optimized benchmarks shown **20%** more failures related to **out of resources**.
