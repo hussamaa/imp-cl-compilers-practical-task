@@ -2,6 +2,8 @@
 
 This project is part of a practical task about finding bugs in OpenCL compilers, which uses the tools: [CLSmith](https://github.com/ChrisLidbury/CLSmith) and [clreduce](https://github.com/mpflanzer/clreduce) for this purpose. These tools are responsible for random kernel generation and execution, and program reduction. Furthermore, additional scripts written in shell script were created in order to help the execution and evaluation of the benchmarks.
 
+Presentation: https://gitpitch.com/hussamaa/imp-cl-compilers-practical-task
+
 ## The scripts include:
 
 * `generate-clsmith-kernels.sh` a script for multiple OpenCL kernel generation using CLSmith;
